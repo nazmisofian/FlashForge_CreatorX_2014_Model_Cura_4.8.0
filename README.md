@@ -10,6 +10,8 @@ Please remember to adjust these few lines for temperature settings (I found that
 For Reference on Cura basic settings on the FlashForge Creator X 2014 Model, 
 ![FlashForge Creator X](FlashForge_CreatorX_Cura.png)
 
+The printer profile is based on the Makerbot Replicator which only has a single extruder. To be able to configure to dual extruders, you will need to configure or add the .json files ```makerbotreplicator.def.json``` to your installed cura folder location (eg. C:\Program Files\Ultimaker Cura 4.8.0\resources\definitions) and ```makerbotreplicator_extruder_1.def.json``` to (eg. C:\Program Files\Ultimaker Cura 4.8.0\resources\extruders)
+
 For single filament prints (located in ```GCode Start Code Creator X Single Material.txt``` file), please adjust the S*_temperature_* value according to your filament and bed settings
 * ```M140 S70 T0; pre-heating bed, Fixed Bed Temperature *Important to adjust here if manual*```
 * ```M134 T0 ;Wait for bed to reach target temperature```
