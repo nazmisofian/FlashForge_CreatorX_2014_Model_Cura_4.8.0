@@ -1,6 +1,8 @@
 # FlashForge_Cura4.8.0
 This repository is to keep the Gcode for Single and Dual Extruder Configurations.
 
+The Flashforge Creator X (2014 model) was configured using Sailfish version 7.2.
+
 The original manual is based off here https://3duniverse.org/3D%20Universe's%20Unofficial%20FlashForge%20Creator%20X%20Manual.pdf using Slic3r's example. The Gcode has been modified slightly to adapt to the current configurations for FlashForge Creator X (2014 model). 
 
 Please remember to adjust these few lines for temperature settings (I found that in Cura, the nozzle temp settings doesn't carry over to the Gcode properly most likely due to Sailfish way of interpretation is slightly different)
