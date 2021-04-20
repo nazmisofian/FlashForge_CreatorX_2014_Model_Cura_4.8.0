@@ -1,4 +1,4 @@
-# FlashForge_Cura4.8.0
+# FlashForge_Creator_X Cura 4.8.0 Settings
 This repository is to keep the Gcode for Single and Dual Extruder Configurations.
 
 The Flashforge Creator X (2014 model) was configured using Sailfish version 7.2.
