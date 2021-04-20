@@ -8,7 +8,7 @@ The original manual is based off here https://3duniverse.org/3D%20Universe's%20U
 Please remember to adjust these few lines for temperature settings (I found that in Cura, the nozzle temp settings doesn't carry over to the Gcode properly most likely due to Sailfish way of interpretation is slightly different)
 
 For Reference on Cura basic settings on the FlashForge Creator X 2014 Model, 
-[FlashForge Creator X](https://github.com/nazmisofian/FlashForge_Cura4.8.0/blob/main/FlashForge_CreatorX_Cura.png)
+![FlashForge Creator X](main/FlashForge_CreatorX_Cura.png)
 
 For single filament prints (located in ```GCode Start Code Creator X Single Material.txt``` file), please adjust the S*_temperature_* value according to your filament and bed settings
 * ```M140 S70 T0; pre-heating bed, Fixed Bed Temperature *Important to adjust here if manual*```
